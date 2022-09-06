@@ -16,7 +16,7 @@
                     <div class="card project-card">
                         <div class="row no-gutters">
                             <div class="col-lg-4 card-img-holder">
-                                <img src="~/assets/images/project/@project.Image" class="card-img" alt="image">
+                                <img src="~/assets/images/project/@project.Image" class="card-img" alt="@project.Title" title="@project.Description">
                             </div>
                             <div class="col-lg-8">
                                 <div class="card-body">
@@ -28,7 +28,7 @@
                                     <p class="card-text">
                                         @project.Description
                                     </p>
-                                    <p class="card-text"><small class="text-muted">Client: Google</small></p>
+                                    <p class="card-text"><small class="text-muted">@project.Client</small></p>
                                 </div>
                             </div>
                         </div>
